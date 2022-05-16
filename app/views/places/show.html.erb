@@ -3,6 +3,8 @@
 <ul>
   <% for post in @posts %>
     <li><%= post["title"] %></li>
+    <li><%= post["description"] %></li>
+    <li><%= post["posted_on"] %></li>
   <% end %>
 </ul>
 
